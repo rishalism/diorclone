@@ -1,0 +1,69 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.col-12 {
+    height: 600px;
+    background-color: aqua;
+    outline: solid 2px black;
+}
+.foot{
+    height: 320px;
+    background-color: white;
+    outline: solid 2px black;
+}
+.image1{
+    background-image: url(images/first\ image.avif);
+    background-size: cover;
+}
+.image2{
+    background-image: url(images/second\ image.avif);
+    background-size: cover;
+}
+
+.navbar-toggler{
+    margin-left: auto;
+}
+.navbar-brand{
+    width: 119px;
+    height: 60px;
+}
+@media (min-width: 1200px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        top: -10%;
+        transform: translateX(-50%);
+    }
+}
+.card-text:hover{
+font-weight: 600;
+cursor: pointer;
+}
+
+/* CSS for small (sm) and medium (md) screens */
+@media (max-width: 991.98px) {
+    #footer-box {
+      display: none; /* Hide the div */
+    }
+  }
+
+
+/* CSS for medium (md) screens */
+@media (max-width: 991.98px) {
+    #footer-box2 {
+      display: block; /* Show the div */
+    }
+  }
+  
+  /* CSS for large (lg), extra-large (xl), and extra-extra-large (xxl) screens */
+  @media (min-width: 992px) {
+    #footer-box2 {
+      display: none; /* Hide the div */
+    }
+  }
+  
